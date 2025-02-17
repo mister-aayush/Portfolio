@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home||</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">Aayush's Portfolio</a>
+        </div>
+
+        <div class="nav-right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Service</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Aayush</span>
+                <div>I am a passionate</div>
+                <span id="element"></span><br>
+                <button class="btn">Download CV</button>
+                <button class="btn" Visit>GitHub</button>
+            </div>
+            <div class="rightSection">
+                <img src="developer.png" alt="developer">
+            </div>
+        </section>
+        <hr>
+
+        <section class="aboutSection">
+            <h3>About Me</h3>
+            <div class="about-container">
+                <div class="myimage"><a href="profile3.jpeg"><img src="profile3.jpeg" alt=""></a></div>
+                <div class="mydescription"> Thanks for your interest, here is a quick story of me and this website.
+                    My name is Aayush Shrestha. I love to solve programming problems in most efficient ways. 
+                    I do my work mainly in  HTML,CSS. Php snd  Data Structure & Algorithm are my stronger section. Besides these I do have knowledge about Figma.
+                    This website is basically one of my Web Development project which is built using HTML, CSS and Java Scrit.
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="contactSection">
+            <h3>Contact Me</h3>
+            <div class="signup">
+                <h1>Sign up</h1>
+                <h4>Please enter your details here</h4>
+                <form>
+                    <label>First name</label>
+                    <input type="text" name="">
+                    <label>Last name</label>
+                    <input type="text" name="">
+                    <label>Email</label>
+                    <input type="email" name="">
+                    <label>Phone no</label>
+                    <input type="number" name="">
+                    <input type="button" name="Submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer-rights">
+            copyright&#169;aayushsportfolio.com || All Right reserved.
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['UI/UX designer.', 'Web Developer.','UI/UX designer,', 'Web Developer.'
+                ,'UI/UX designer.', 'Web Developer.','UI/UX designer.', 'Web Developer.'
+            ],
+            typeSpeed: 90,
+        });
+    </script>
+</body>
+
+</html>
