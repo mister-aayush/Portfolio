@@ -196,3 +196,25 @@ footer .footer-rights {
     color: gray;
     font-size: 1.2rem;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(23, 23, 90);
+        height: 60px;
+        align-items: center;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        flex-wrap: wrap;
+    }
+    .firstSection{
+        display: flex;
+        direction: column;
+    }
+
+  }
