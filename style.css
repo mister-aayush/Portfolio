@@ -41,6 +41,17 @@ nav {
     color: rgb(159, 159, 248);
     font-size: 1.04rem;
 }
+.nav-right ul li button{
+    background-color:rgb(19, 19, 71) ;
+    color: white;
+    padding: 5px;
+    border: 1px solid black ;
+    
+}
+.nav-right ul li button a:hover{
+    color: rgb(159, 159, 248);
+    font-size: 1.04rem;
+}
 
 .nav-left a {
     text-decoration: none;
